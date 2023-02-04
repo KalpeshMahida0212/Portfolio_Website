@@ -1,54 +1,127 @@
-body {
-  width: 100vw;
-  height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+body,html {
   margin: 0;
-  background: #34496a;
+  padding: 0;
+  box-sizing: border-box;
+  background: black;
   overflow: hidden;
-  display: flex;
+  font-family: 'Exo 2', sans-serif;
   justify-content: center;
   align-items: center;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  
   }
 
-  .background {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
+ .centered-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: -1;
   }
 
 
-#webgl {
-  width: 800px;
-  height: 600px;
-  position: absolute;
-  z-index: -1;
+
+/* Navbar section */
+
+
+
+.nav {
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    line-height: 65px;
+    text-align: center;
 }
 
-#webgl2 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  outline: none;
-  z-index: 2;
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 0.5rem;
+}
+
+.nav div.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.nav div.logo a:hover {
+    color: #00E676;
+}
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 1rem;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 1.4rem;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #00E676;
+}
+
+#webgl {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#webgl2 { 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    outline: none;
+    z-index: 2;
 }
 
 #bg-box {
-  width: 802px;
-  height: 602px;
-  position: absolute;
-  z-index: -1;
+  display:none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
 }
 
-.svg-box {
-  width: 800px;
-  height: 600px;
-  position: absolute;
-  z-index: 1;
+.svg-box {  
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    z-index: 1;
 }
 .svg-box #robot {
   cursor: pointer;
