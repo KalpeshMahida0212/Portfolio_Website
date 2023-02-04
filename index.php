@@ -25,17 +25,18 @@ include("pointer.php"); ?>
                 </ul>
             </div>
             <span class="navTrigger">
-                <i></i>
+                <i></i> 
                 <i></i>
                 <i></i>
             </span>
         </div>
     </nav> 
-    <div class="centered-div">
+    <br><br><br>
+     <div class="transparent-div" style="color: white;" >In the CSS code above, the "transparent-div" class is applied to a div with a transparent background color. The "background-color" property is set to "rgba(0, 0, 0, 0.5)", which sets the background color to black with an alpha channel of 0.5. The alpha channel controls the transparency of the color, with a value of 0 being fully transparent and a value of 1 being fully opaque.In the CSS code above, the "transparent-div" class is applied to a div with a transparent background color. The "background-color" property is set to "rgba(0, 0, 0, 0.5)", which sets the background color to black with an alpha channel of 0.5. The alpha channel controls the transparency of the color, with a value of 0 being fully transparent and a value of 1 being fully opaque.In the CSS code above, the "transparent-div" class is applied to a div with a transparent background color. The "background-color" property is set to "rgba(0, 0, 0, 0.5)", which sets the background color to black with an alpha channel of 0.5. The alpha channel controls the transparency of the color, with a value of 0 being fully transparent and a value of 1 being fully opaque.In the CSS code above, the "transparent-div" class is applied to a div with a transparent background color. The "background-color" property is set to "rgba(0, 0, 0, 0.5)", which sets the background color to black with an alpha channel of 0.5. The alpha channel controls the transparency of the color, with a value of 0 being fully transparent and a value of 1 being fully opaque.</div>
+    <div class="centered-div background">
 <?php
 include("animation.php");
-?> 
-   
+?>  
   </div>
 
 <!-- partial -->
